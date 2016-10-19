@@ -1,0 +1,31 @@
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.rect {
+  transition: fill 0.3s;
+  /*fill: rgb(35, 135, 106);*/
+}
+.rect:hover {
+  fill: rgb(128, 80, 170);
+}
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
