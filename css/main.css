@@ -18,11 +18,12 @@ text {
 }
 
 .rect {
-  transition: fill 0.3s;
+  transition: all 0.2s;
+  pointer-events: all;
   /*fill: rgb(35, 135, 106);*/
 }
 .rect:hover {
-  fill: rgb(128, 80, 170);
+  fill: rgb(101, 220, 241);
 }
 form {
   position: absolute;
